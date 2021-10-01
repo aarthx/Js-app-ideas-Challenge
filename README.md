@@ -3,4 +3,5 @@
  Training HTML, Css and Js
  
  ideas completed: <br>
- . Flip Image: Change the orientation of images across two axes	(1-Beginner)
+ . Flip Image: Change the orientation of images across two axes.	(1-Beginner) <br>
+ . Random Number Generator: Generate random number between range.	(1-Beginner)
