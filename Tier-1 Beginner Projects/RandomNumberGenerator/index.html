@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Gerador de número aleatório</h1>
+    <div class="caixa-intervalo">
+        <p>Selecione o intervalo a ser sorteado:</p>
+        <p>de <input type="text" name="numberMin" id="numberMin">
+        para <input type="text" name="numberMax" id="numberMax"></p>
+    </div>
+    <div class="resultado">
+        O numero sorteado foi: 
+        <div id="numeroResultado"></div>
+    </div>
+    <div class="botao-sortear" onclick="sorteia();">
+        SORTEAR
+    </div>
+</body>
+
+</html>
