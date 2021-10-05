@@ -1,0 +1,99 @@
+.flip-container {
+    margin-left: 0px;
+}
+
+html {
+    background-color: #A4778B;
+    border: solid 10px black;
+}
+
+body {
+    background-image: linear-gradient(180deg, #A9FFCB, #B6EEA6);
+    margin: 100px 100px;
+    padding: 50px;
+    border: solid 2px black;
+}
+
+.front {
+    display: inline;
+}
+ 
+.flipper{
+    display: inline;
+    width: 500px;
+    
+}
+
+.bonk {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+
+.bonk {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: solid 2px black;
+    padding: 5px;
+    background-color: white;
+    transform: rotateY(0deg) rotateX(0deg);
+    
+}
+
+.keyboard {
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+    right: 25px;
+}
+
+.keyboard img {
+    width: 50px;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px 1px #000;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.keyboard img:active {
+    box-shadow: none;
+}
+
+.up {
+    position: relative;
+    margin-bottom: 50px;
+    left: 108px;
+}
+
+.url-box {
+    border: solid 2px black;
+    font-weight: 900;
+    margin-top: 20px;
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #C0B298;
+}
+
+.url-box .url-input {
+    width: 80%;
+    height: 30px;
+}
+
+.url-box button {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+@media (max-width: 1588px) and (min-width: 1370px) {
+    .keyboard {margin-right: 500px;}
+}
+
+@media (max-width: 1370px) and (min-width: 1073px) {
+    .keyboard {margin-right: 200px;}
+}
+
+@media (max-width: 600px) {
+    body{display: none;}
+}

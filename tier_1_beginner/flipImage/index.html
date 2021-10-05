@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FlipImage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="flip-container">
+        <div class="linha-um">
+            <div class="flipper um">
+                <div class="front">
+                    <img id="1" class="bonk" style="transform: rotateY(0deg) rotateX(0deg);" src="img/bonk.png">
+                </div>
+            </div>
+            <div class="keyboard">
+                <img class="up" src="img/up.png" onclick="up(1);">
+                <img src="img/left.png" onclick="left(1);">
+                <img src="img/down.png" onclick="down(1);">
+                <img src="img/right.png" onclick="right(1);">
+            </div>
+            <div class="flipper dois">
+                <div class="front">
+                    <img id="2" class="bonk" style="transform: rotateY(0deg) rotateX(0deg);" src="img/bonk.png">
+                </div>
+            </div>
+            <div class="keyboard">
+                <img class="up" src="img/up.png" onclick="up(2);">
+                <img src="img/left.png" onclick="left(2);">
+                <img src="img/down.png" onclick="down(2);">
+                <img src="img/right.png" onclick="right(2);">
+            </div> 
+        </div>
+        <div class="linha-dois">
+            <div class="flipper tres">
+                <div class="front">
+                    <img id="3" class="bonk" style="transform: rotateY(0deg) rotateX(0deg);" src="img/bonk.png">
+                </div>
+            </div>
+            <div class="keyboard">
+                <img class="up" src="img/up.png" onclick="up(3);">
+                <img src="img/left.png" onclick="left(3);">
+                <img src="img/down.png" onclick="down(3);">
+                <img src="img/right.png" onclick="right(3);">
+            </div>
+            <div class="flipper quatro">
+                <div class="front">
+                    <img id="4" class="bonk" style="transform: rotateY(0deg) rotateX(0deg);" src="img/bonk.png">
+                </div>
+            </div>
+            <div class="keyboard">
+                <img class="up" src="img/up.png" onclick="up(4);">
+                <img src="img/left.png" onclick="left(4);">
+                <img src="img/down.png" onclick="down(4);">
+                <img src="img/right.png" onclick="right(4);">
+            </div> 
+        </div>
+    </div>
+    <div class="url-box">
+        <p>Insert your image URL here:</p>
+        <input type="text" name="url" class="url-input" id="url">
+        <button onclick="mudaImagem();">Display</button>
+    </div>
+</body>
+
+</html>
+

@@ -1,0 +1,103 @@
+html {
+    background-color: black;
+    font-family: 'Varela Round', sans-serif;
+    user-select: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+.container {
+    background-color: #A52A2A;
+    width: 1000px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: solid 3px white;
+    text-align: center;
+
+}
+
+.situation {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+
+}
+
+.timer  {
+    font-size: 200px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 200px;
+    padding: 15px 32px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 100px;
+    cursor:pointer;
+    box-shadow: 3px 3px black;
+}
+
+.button:active {
+    box-shadow: none;
+}
+
+.custom-text {
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.custom { 
+    color: white;
+}
+
+.custom div{ 
+   display: inline-block;
+}
+
+.custom .add {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #A52A2A;
+    background-color: white;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bolder;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.custom-break, .custom-working {
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+
+

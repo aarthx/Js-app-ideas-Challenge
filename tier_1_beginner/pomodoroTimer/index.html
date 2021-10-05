@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Pomodoro Timer</h1>
+    <div class="container">
+        <div class="situation" id="situation">working session</div>
+        <div class="timer">
+            <span id="minute">25</span>:<span id="second">00</span>
+        </div>
+        <button type="button" id="playpause" class="button" name="pause" onclick="pauseplay();">PLAY</button>
+        <button type="button" class="button" name="Reset" onclick="reset();">RESET</button> <br>
+        <div class="custom-text">Working Time</div> 
+        <div class="custom-text">Break Time</div> 
+        <div class="custom">
+            <div class="custom-working">
+                <div id="sub" class="add" onclick="sub1();">-</div> <div id="workTime">25 min</div> <div id="add" class="add" onclick="add1();">+</div>
+            </div>
+            <div class="custom-break">
+                <div id="sub" class="add" onclick="sub2();">-</div> <div id="breakTime">5 min</div> <div id="add" class="add" onclick="add2();">+</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+</html>
